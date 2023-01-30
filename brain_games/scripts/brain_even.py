@@ -26,4 +26,4 @@ def game_even_go():
     else:
         return print('Congratulations! All 3 answers were correct!')
 
-game_even_go()
+# game_even_go()
