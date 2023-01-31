@@ -11,6 +11,7 @@ def is_even(question_even_number):
 
 def game_even_go():
     counter = 0
+    main()
     while counter < 3:
         question_even_number = randint(1, 100)
         print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -18,12 +19,12 @@ def game_even_go():
         answer = input()
         is_even(question_even_number) 
         if answer != correct_answer:
-            break
-            return print(f'"{answer}" is wrong answer. Correct answer was "{correct_answer}"')
+            print(f'"{answer}" is wrong answer. Correct answer was "{correct_answer}"')
+            return 
         else:
             print('Correct!')
             counter = counter + 1
     else:
-        return print('Congratulations! All 3 answers were correct!')
+        print('Congratulations! All 3 answers were correct!')
 
-# game_even_go()
+game_even_go()
