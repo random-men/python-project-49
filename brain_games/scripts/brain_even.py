@@ -1,5 +1,9 @@
-from brain_games.scripts.brain_games import main
+from brain_games.cli import welcome_user
 from random import randint
+
+def main():
+    print('Welcome to the Brain Games!')
+    welcome_user()
 
 def is_even(question_even_number):
     global correct_answer
