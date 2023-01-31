@@ -13,9 +13,9 @@ def is_even(question_even_number):
 def game_even_go():
     counter = 0
     name = welcome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     while counter < 3:
         question_even_number = randint(1, 100)
-        print('Answer "yes" if the number is even, otherwise answer "no".')
         print('Question: ', question_even_number)
         answer = input()
         is_even(question_even_number)
