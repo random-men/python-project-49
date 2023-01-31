@@ -1,10 +1,11 @@
-# import prompt
+import prompt
 
 
 def welcome_user():
-    name = ''
-    while name == '':
-        print('May I have your name? ', end='')
-        name = input()
-    print('Hello, ' + name + '!')
+    name = prompt.string('May I have your name? ')
+    print(f'''Hello, {name}!''')
     return name
+
+
+
+
