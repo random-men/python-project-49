@@ -7,3 +7,4 @@ Badges:
 Demos:
 [![asciicast](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J.svg)](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J)
 [![asciicast](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X.svg)](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X)
+[![asciicast](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN.svg)](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN)
