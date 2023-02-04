@@ -32,7 +32,8 @@ def game_prog_go():
         else:
             print('Correct!')
             counter = counter + 1
-
+    else:
+        print(f'''Congratulations, {name}!''')
 
 def main():
     print('Welcome to the Brain Games!')
