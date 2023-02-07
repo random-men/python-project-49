@@ -5,12 +5,12 @@ from random import randint
 def is_prime(question_prime_number):
     counter_prime = 0
     for i in range(2, question_prime_number):
-        if question_prime_number%i == 0:
-            counter_prime = counter_prime+1
+        if question_prime_number % i == 0:
+            counter_prime = counter_prime + 1
     if counter_prime <= 0:
-            correct_answer = 'yes'
+        correct_answer = 'yes'
     else:
-            correct_answer = 'no'
+        correct_answer = 'no'
     return correct_answer
 
 
@@ -36,7 +36,6 @@ def game_prime_go():
 
 def main():
     print('Welcome to the Brain Games!')
-#   welcome_user()
     game_prime_go()
 
 

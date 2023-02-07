@@ -38,7 +38,6 @@ def game_calc_go():
 
 def main():
     print('Welcome to the Brain Games!')
-#   welcome_user()
     game_calc_go()
 
 

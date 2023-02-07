@@ -32,7 +32,6 @@ def game_even_go():
 
 def main():
     print('Welcome to the Brain Games!')
-#   welcome_user()
     game_even_go()
 
 

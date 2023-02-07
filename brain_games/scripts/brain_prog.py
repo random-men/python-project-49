@@ -8,10 +8,10 @@ def gen_prog(question_prog_start, question_prog_iter, question_index):
     while len(gen_quest_prog) < 5:
         for i in range(quest_prog_length):
             n = question_prog_start + question_prog_iter
-            gen_quest_prog.append(n) 
-            question_prog_start = n  
+            gen_quest_prog.append(n)
+            question_prog_start = n
     correct_answer = gen_quest_prog[question_index]
-    gen_quest_prog[question_index] =  'XX'
+    gen_quest_prog[question_index] = 'XX'
     return gen_quest_prog, correct_answer
 
 
@@ -23,9 +23,9 @@ def game_prog_go():
         question_prog_start = randint(1, 80)
         question_prog_iter = randint(1, 9)
         question_index = randint(0, 4)
-        gen_quest_prog, correct_answer = gen_prog(question_prog_start, question_prog_iter, question_index) 
-        print(f'''Question: {gen_quest_prog}''') 
-        answer = input()       
+        gen_quest_prog, correct_answer = gen_prog(question_prog_start, question_prog_iter, question_index)
+        print(f'''Question: {gen_quest_prog}''')
+        answer = input()
         if int(answer) != correct_answer:
             print(f'''"{answer}" is wrong answer. Correct answer was "{correct_answer}". Let's try again, {name}!''')
             return
@@ -35,9 +35,9 @@ def game_prog_go():
     else:
         print(f'''Congratulations, {name}!''')
 
+
 def main():
     print('Welcome to the Brain Games!')
-#   welcome_user()
     game_prog_go()
 
 

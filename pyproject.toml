@@ -1,16 +1,22 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Project containing five simple math games."
+classifiers = [
+    "Private::Do Not Upload",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Education"
+]
 authors = ["Ruslan M <evilpingu@yandex.ru>"]
+repository = "https://github.com/random-men/python-project-49"
 readme = "README.md"
 #packages = [{include = "hexlet_code"}]
 packages = [{include = "brain_games"}]
 
+
 [tool.poetry.dependencies]
 python = "^3.8.1"
 prompt = "^0.4.1"
-
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
