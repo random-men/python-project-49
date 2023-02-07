@@ -16,7 +16,7 @@ Just execute following commands in terminal:
 2. make build
 3. make package-install
 
-### Executing
+### Executing:
 After intallation you can run any of this games just typing any of following commands:
 * brain-calc - Player must enter correct result of generated expression
 * brain-even - Parity check of generated number 
