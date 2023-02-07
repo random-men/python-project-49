@@ -8,15 +8,21 @@ Python: 3.8.1
 Poetry: 1.3.2
 
 ### Description:
-Brain Games is project containing five simple math games, written in Python and builds on basic knowledge of this programming language. 
+Brain Games is project containing five simple math games for running in terminal, written in Python and builds on basic knowledge of this programming language. 
 
 ### Install:
 Just execute following commands in terminal:
 1. make install
 2. make build
 3. make package-install
-4. brain-games 
 
+### Executing
+After intallation you can run any of this games just typing any of commands:
+* brain-calc - Player must enter correct result of generated expression
+* brain-even - Parity check of generated number 
+* brain-gcd - Finding largest divisor of generated numbers
+* brain-prime - Prime number check
+* brain-prog - Finding missing number in generated arithmetic progression
 
 ### Demos:
 [![asciicast](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J.svg)](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J)
