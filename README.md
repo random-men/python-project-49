@@ -25,9 +25,9 @@ After intallation you can run any of this games just typing any of following com
 * brain-prog - Finding missing number in generated arithmetic progression
 
 ### Demos:
-[![asciicast](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J.svg)](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J)
-[![asciicast](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X.svg)](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X)
-[![asciicast](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN.svg)](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN)
-[![asciicast](https://asciinema.org/a/XlAOrme9w4W8WVhUxp5dDCEwD.svg)](https://asciinema.org/a/XlAOrme9w4W8WVhUxp5dDCEwD)
-[![asciicast](https://asciinema.org/a/8kxsv7Oid5W7ZRO8WnyocZ6nn.svg)](https://asciinema.org/a/8kxsv7Oid5W7ZRO8WnyocZ6nn)
+[brain-calc](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J) 
+[brain-even](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X) 
+[brain-gcd](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN) 
+[brain-prime](https://asciinema.org/a/XlAOrme9w4W8WVhUxp5dDCEwD)
+[brain-prog](https://asciinema.org/a/8kxsv7Oid5W7ZRO8WnyocZ6nn)
 
