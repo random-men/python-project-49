@@ -17,7 +17,7 @@ Just execute following commands in terminal:
 3. make package-install
 
 ### Executing
-After intallation you can run any of this games just typing any of commands:
+After intallation you can run any of this games just typing any of following commands:
 * brain-calc - Player must enter correct result of generated expression
 * brain-even - Parity check of generated number 
 * brain-gcd - Finding largest divisor of generated numbers
