@@ -1,1 +1,6 @@
 /.venv/
+/dist/
+__pychache__/
+*.save
+*.1
+*.
