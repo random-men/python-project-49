@@ -1,6 +1,8 @@
 from brain_games.cli import welcome_user
 from random import randint
 
+def game_condition():
+    print('What number is missing in the progression?')
 
 def gen_quest_answer():
     quest_prog_start = randint(1, 80)
@@ -18,14 +20,3 @@ def gen_quest_answer():
     return question, correct_answer
 
 
-def game_condition():
-    print('What number is missing in the progression?')
-
-
-def main():
-    print('Welcome to the Brain Games!')
-    game_go()
-
-
-if __name__ == '__main__':
-    main()

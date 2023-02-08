@@ -1,6 +1,8 @@
 from brain_games.cli import welcome_user
 from random import randint
 
+def game_condition():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 def gen_quest_answer():
     question = randint(1, 100)
@@ -15,14 +17,3 @@ def gen_quest_answer():
     return question, correct_answer
 
 
-def game_condition():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-
-
-def main():
-    print('Welcome to the Brain Games!')
-    game_go()
-
-
-if __name__ == '__main__':
-    main()

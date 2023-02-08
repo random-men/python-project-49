@@ -1,6 +1,8 @@
 from brain_games.cli import welcome_user
 from random import randint
 
+def game_condition():
+    print('What is the result of the expression?')
 
 def gen_quest_answer():
     question_calc_number1 = randint(1, 10)
@@ -18,15 +20,3 @@ def gen_quest_answer():
     return question, correct_answer
 
 
-def game_condition():
-    print('What is the result of the expression?')
-
-
-
-
-def main():
-    game_go()
-
-
-if __name__ == '__main__':
-    main()
