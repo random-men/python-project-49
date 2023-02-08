@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-#import 
-from brain_games.engine import game_go
+import brain_games.engine 
 
 
 def main():

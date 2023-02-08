@@ -9,7 +9,7 @@ def welcome_user():
 
 
 
-game_condition()
+game_condition(brain_calc)
 
 def game_go():
     name = welcome_user()

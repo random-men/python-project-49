@@ -17,7 +17,6 @@ def game_condition():
 
 
 def main():
-    print('Welcome to the Brain Games!')
     game_go()
 
 
