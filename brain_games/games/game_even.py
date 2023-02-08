@@ -1,4 +1,3 @@
-from brain_games.cli import welcome_user
 from random import randint
 
 def game_condition():
@@ -11,6 +10,4 @@ def gen_quest_answer():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return question, correct_answer
-
-
+    return question, 

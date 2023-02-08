@@ -1,4 +1,3 @@
-from brain_games.cli import welcome_user
 from random import randint
 
 def game_condition():
@@ -18,5 +17,3 @@ def gen_quest_answer():
     correct_answer = question[quest_index]
     question[quest_index] = 'XX'
     return question, correct_answer
-
-

@@ -1,4 +1,4 @@
-from brain_games.engine import game_go
+
 from random import randint
 
 def game_condition():
@@ -18,5 +18,3 @@ def gen_quest_answer():
     else:
         correct_answer = question_calc_number1 * question_calc_number2
     return question, correct_answer
-
-
