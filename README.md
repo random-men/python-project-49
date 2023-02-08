@@ -25,6 +25,7 @@ After intallation you can run any of this games just typing any of following com
 * brain-prog - Finding missing number in generated arithmetic progression
 
 ### Demos:
+[Install](https://asciinema.org/a/B3G3o6igEa2XYLJtozDQS7Uo9) 
 [brain-calc](https://asciinema.org/a/Snc1GhgdCLxyt10MmxhMV806J) 
 [brain-even](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X) 
 [brain-gcd](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN) 

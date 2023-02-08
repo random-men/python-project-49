@@ -1,6 +1,7 @@
 /.venv/
 /dist/
-__pychache__/
+__pycache__/
 *.save
 *.1
 *.
+*.swp
