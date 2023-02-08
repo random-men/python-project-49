@@ -8,8 +8,7 @@ def welcome_user():
     return name
 
 
-
-game_condition(brain_calc)
+game_condition()
 
 def game_go():
     name = welcome_user()
