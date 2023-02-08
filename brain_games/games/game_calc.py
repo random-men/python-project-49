@@ -1,4 +1,4 @@
-from brain_games.cli import welcome_user
+from brain_games.engine import game_go
 from random import randint
 
 def game_condition():
