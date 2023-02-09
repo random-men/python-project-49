@@ -9,4 +9,4 @@ def gen_quest_answer():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return question, 
+    return question, correct_answer

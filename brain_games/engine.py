@@ -16,7 +16,7 @@ def game_go(game):
         question, correct_answer = game.gen_quest_answer()
         print(f'''Question: {question}''')
         answer = input()
-        if int(answer) != correct_answer:
+        if answer != str(correct_answer):
             print(f'''"{answer}" is wrong answer. Correct answer was "{correct_answer}". Let's try again, {name}!''')
             return
         else:
