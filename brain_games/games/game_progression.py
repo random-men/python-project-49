@@ -15,5 +15,5 @@ def gen_quest_answer():
             question.append(n)
             quest_prog_start = n
     correct_answer = question[quest_index]
-    question[quest_index] = 'QQ'
+    question[quest_index] = '..'
     return question, correct_answer
