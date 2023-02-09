@@ -3,6 +3,7 @@
 from brain_games.games import game_prime
 from brain_games.engine import game_go
 
+
 def main():
     game_go(game_prime)
 

@@ -2,6 +2,7 @@ from random import randint
 
 GAME_RULE = 'What number is missing in the progression?'
 
+
 def gen_quest_answer():
     quest_prog_start = randint(1, 80)
     quest_prog_iter = randint(1, 9)
@@ -14,5 +15,5 @@ def gen_quest_answer():
             question.append(n)
             quest_prog_start = n
     correct_answer = question[quest_index]
-    question[quest_index] = 'XX'
+    question[quest_index] = 'QQ'
     return question, correct_answer
