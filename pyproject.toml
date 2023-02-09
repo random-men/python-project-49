@@ -10,7 +10,6 @@ classifiers = [
 authors = ["Ruslan M <evilpingu@yandex.ru>"]
 repository = "https://github.com/random-men/python-project-49"
 readme = "README.md"
-#packages = [{include = "hexlet_code"}]
 packages = [{include = "brain_games"}]
 
 
