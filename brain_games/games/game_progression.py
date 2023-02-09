@@ -16,4 +16,5 @@ def gen_quest_answer():
             quest_prog_start = n
     correct_answer = question[quest_index]
     question[quest_index] = '..'
+    question = ' '.join(map(str, question))
     return question, correct_answer
