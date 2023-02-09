@@ -8,12 +8,12 @@ def welcome_user():
     return name
 
 
-def game_go():
+def game_go(game):
     name = welcome_user()
-    game_condition()
+    print(game.GAME_RULE)
     counter_rounds = 0
     while counter_rounds < 3:
-        question, correct_answer = gen_quest_answer()    
+        question, correct_answer = game.gen_quest_answer()
         print(f'''Question: {question}''')
         answer = input()
         if int(answer) != correct_answer:

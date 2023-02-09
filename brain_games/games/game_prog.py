@@ -1,7 +1,6 @@
 from random import randint
 
-def game_condition():
-    print('What number is missing in the progression?')
+GAME_RULE = 'What number is missing in the progression?'
 
 def gen_quest_answer():
     quest_prog_start = randint(1, 80)

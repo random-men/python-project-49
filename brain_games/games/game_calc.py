@@ -1,8 +1,7 @@
 
 from random import randint
 
-def game_condition():
-    print('What is the result of the expression?')
+GAME_RULE = 'What is the result of the expression?'
 
 def gen_quest_answer():
     question_calc_number1 = randint(1, 10)
