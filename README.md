@@ -23,7 +23,7 @@ After installation you can run any of this games just typing any of following co
 * brain-even - Parity check of generated number 
 * brain-gcd - Finding largest divisor of generated numbers
 * brain-prime - Prime number check
-* brain-prog - Finding missing number in generated arithmetic progression
+* brain-progression - Finding missing number in generated arithmetic progression
 
 ### Demos:
 [Install](https://asciinema.org/a/B3G3o6igEa2XYLJtozDQS7Uo9) 
@@ -31,5 +31,5 @@ After installation you can run any of this games just typing any of following co
 [brain-even](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X) 
 [brain-gcd](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN) 
 [brain-prime](https://asciinema.org/a/XlAOrme9w4W8WVhUxp5dDCEwD)
-[brain-prog](https://asciinema.org/a/8kxsv7Oid5W7ZRO8WnyocZ6nn)
+[brain-progression](https://asciinema.org/a/8kxsv7Oid5W7ZRO8WnyocZ6nn)
 
