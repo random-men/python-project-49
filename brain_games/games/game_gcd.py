@@ -4,7 +4,7 @@ import math
 GAME_RULE = 'Find the greatest common divisor of given numbers.'
 
 
-def gen_quest_answer():
+def generate_game():
     question_gcd_number1 = randint(1, 100)
     question_gcd_number2 = randint(1, 100)
     question = f'{question_gcd_number1} {question_gcd_number2}'

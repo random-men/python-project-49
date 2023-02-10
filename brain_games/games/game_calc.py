@@ -4,7 +4,7 @@ from random import randint
 GAME_RULE = 'What is the result of the expression?'
 
 
-def gen_quest_answer():
+def generate_game():
     question_calc_number1 = randint(1, 10)
     question_calc_number2 = randint(1, 10)
     question_calc_operation = ('+', '-', '*')
