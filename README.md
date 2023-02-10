@@ -31,5 +31,5 @@ After installation you can run any of this games just typing any of following co
 [brain-even](https://asciinema.org/a/Z9siri10rz4slMOM65DEC4b0X) 
 [brain-gcd](https://asciinema.org/a/l0f3LblOBpPXtdrUpUN1p0bDN) 
 [brain-prime](https://asciinema.org/a/XlAOrme9w4W8WVhUxp5dDCEwD)
-[brain-progression](https://asciinema.org/a/8kxsv7Oid5W7ZRO8WnyocZ6nn)
+[brain-progression](https://asciinema.org/a/Qfjl81Gc4cgtgPSbBCMdq05du)
 
