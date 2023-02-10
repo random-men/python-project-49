@@ -1,10 +1,6 @@
 import prompt
 
 
-def welcome_user():
-
-
-
 def start_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -12,7 +8,7 @@ def start_game(game):
     print(game.GAME_RULE)
     counter_rounds = 0
     while counter_rounds < 3:
-        question, correct_answer = game.gen_quest_answer()
+        question, correct_answer = game.generate_game()
         print(f'''Question: {question}''')
         answer = input()
         if answer != str(correct_answer):
